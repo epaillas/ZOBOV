@@ -1,0 +1,12 @@
+dnl configure.in for the qhull package
+dnl Author: Rafael Laboissiere <rafael@debian.org>
+dnl Created: Mon Dec  3 21:36:21 CET 2001
+
+AC_INIT(src/libqhull.c)
+AM_INIT_AUTOMAKE(qhull, 2002.1)
+
+AC_PROG_CC
+AC_PROG_LIBTOOL
+
+AC_OUTPUT([Makefile src/Makefile html/Makefile eg/Makefile])
+
